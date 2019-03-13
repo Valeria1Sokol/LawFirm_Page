@@ -1,0 +1,170 @@
+@media all and (max-width: 1024px) {
+    .workBlockInfo {
+        width: 186px;
+        height: 288px;
+        margin: 0 10px 0 0;
+    }
+    .workBlocks h1 {
+        font-size: 16px;
+    }
+    .workBlocks p {
+        font-size: 13px;
+    }
+    .workBlockInfo .img {
+        width: 155px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .reviewsText h1 {
+        font-size: 22px;
+    }
+    .reviewsText select {
+        font-size: 22px;
+    }
+    .reviewsText h3 {
+        font-size: 16px;
+        margin: 0 0 20px;
+    }
+    .workBlockInfo {
+        width: 140px;
+        height: 260px;
+        margin: 0 7px 0 0;
+    }
+    .workBlocks h1 {
+        font-size: 13px;
+        width: 120px;
+    }
+    .workBlocks p {
+        font-size: 10px;
+    }
+    .workBlockInfo .img {
+        width: 119px;
+    }
+    .workBlocks h3 {
+        font-size: 11px;
+    }
+ 
+    .workBlockInfo {
+        padding: 15px 0 0px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .reviewsText h1 {
+        font-size: 20px;
+    }
+    .reviewsText h3 {
+        font-size: 13px;
+        margin: 10px 0;
+        width: 250px;
+    }
+    .reviewsText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .workBlocks {
+        width: 400px;
+        flex-wrap: wrap;
+    }
+    .workBlockInfo {
+        width: 190px;
+        height: 288px;
+        margin: 10px 5px;
+    }
+    .workBlockInfo .img {
+        width: 155px;
+        height: 130px;
+    }
+    .workBlocks h1 {
+        font-size: 18px;
+        width: auto;
+    }
+    .workBlocks h3 {
+        font-size: 15px;
+    }
+    .workBlocks p {
+        font-size: 14px;
+    }
+    .workBlockInfo span {
+        margin-top: 10px;
+    }
+    
+    .workBlockInfo:last-of-type {
+        margin: 10px 0;
+    }
+    .value-for-money-header .base {
+        display: flex;
+        flex-direction: column;
+    }
+    #value-for-money-section {
+    
+    justify-content: center;
+    
+}
+    .value-for-money-header .base .value-for-money-bar-content {
+        width: 100%;
+        align-items: center;
+    }
+    .value-for-money-bar-content {
+        padding: 0px !important;
+    }
+    .value-for-money-header>h4 {
+        width: 400px;
+    }
+    .value-for-money-header .base .value-for-money-bar-content .bar {
+        margin: 40px 10px;
+    }
+    .areas-of-law-content {
+        border-top: dotted 5px #f3f3f3;
+        border-left: none;
+        width: 100%;
+        padding: 10px 0 !important;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .areas-of-law-intro-text>p {
+        text-align: justify;
+    }
+    .ranking-container {
+        margin: 20px 0!important;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .workBlockInfo {
+        width: 173px;
+        height: 288px;
+        margin: 10px 5px;
+    }
+    .value-for-money-header>h4 {
+        width: 300px;
+        font-size: 19px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .workBlockInfo {
+        width: 140px;
+        height: 240px;
+        margin: 10px 5px;
+    }
+    .workBlockInfo .img {
+        width: 128px;
+    height: 105px;
+    }
+    .workBlocks h1 {
+        font-size: 14px;
+    }
+    .workBlocks h3 {
+        font-size: 13px;
+    }
+  
+    .workBlocks p {
+    font-size: 12px;
+}
+}

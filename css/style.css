@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.padding-container {
+    border-top: solid 1.5px #e4e8e7;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1184px;
+    padding: 20px 6px;
+    margin: 20px 0 0;
+}
+
+.currentlyReviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 0 0 35px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.reviewsText h1 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #444444;
+}
+
+.reviewsText h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #444444;
+    margin: 0 0 29px;
+}
+
+.reviewsText select {
+    color: #00af54;
+    border: none;
+    outline: none;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.reviewsText select:active {
+    background-color: white;
+}
+
+.workBlocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1182px;
+}
+
+.workBlocks h1 {
+    font-size: 18px;
+    color: #272b29;
+    margin: 15px 0 0;
+}
+
+.workBlocks h3 {
+    font-size: 15px;
+    color: #272b29;
+    font-weight: bold;
+    height: 15px;
+    margin: 5px 0 0;
+}
+
+.workBlocks h3 span {
+    color: #00af54;
+    margin: 0;
+}
+
+.workBlocks p {
+    font-weight: bold;
+    color: #a4a6a9;
+    font-size: 15px;
+}
+
+.workBlockInfo {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 213px;
+    height: 288px;
+    margin: 0 30px 0 0;
+}
+
+.workBlockInfo:last-of-type {
+    margin: 0;
+}
+
+.workBlockInfo .img {
+    width: 167px;
+    height: 142px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.workBlockInfo .img-cheryl-lyons {
+    background-position: 20%;
+    background-image: url(../img/cheryl-lyons.png);
+}
+
+.workBlockInfo .img-lewis-richards {
+    background-image: url(../img/lewis-richards.png);
+    background-position: top;
+}
+
+.workBlockInfo .img-tony-cclaw-portrait {
+    background-image: url(../img/tony-cclaw-portrait.png);
+    background-position: top;
+}
+
+.workBlockInfo .img-keith-dunn {
+    background-image: url(../img/keith-dunn.png);
+    background-position: top;
+}
+
+.workBlockInfo .img-stephen-richards {
+    background-image: url(../img/stephen-richards.png);
+    background-position: top center;
+}
+
+
+/*stars*/
+
+.workBlockInfo span {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+.workBlockInfo .fa {
+
+    width: 18px;
+    height: 18px;
+    border: none;
+    outline: none;
+}
+
+.workBlockInfo .fa.yellow {
+
+    background-image: url(../img/bookmark-star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.workBlockInfo .fa.grey {
+
+    background-image: url(../img/bookmark-star1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+.fa-star:before {
+    content: "\f005";
+}
+*/
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*style of value-for-money-section */
+
+#value-for-money-section {
+    background: #f5f5f5;
+    padding-bottom: 15px;
+    width: 100vw;
+    display: flex;
+/*    justify-content: center;*/
+    align-items: center;
+}
+
+.value-for-money-header .base .value-for-money-bar-content {
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.national-average {
+    top: unset!important;
+    bottom: -30px;
+}
+
+.value-for-money-header .base .value-for-money-bar-content .bar .national-average:after {
+    bottom: unset!important;
+    top: -15px;
+    transform: rotate(180deg);
+}
